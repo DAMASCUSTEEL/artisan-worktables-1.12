@@ -1,2 +1,4 @@
-include ":athenaeum"
-project(":athenaeum").projectDir = file("../athenaeum-1.12")
+rootProject.name = 'artisan-worktables-1.12'
+
+include ':athenaeum-1.12'
+project(':athenaeum-1.12').projectDir = new File(rootDir, 'athenaeum-1.12')

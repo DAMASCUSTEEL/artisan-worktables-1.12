@@ -35,6 +35,6 @@ ext {
 repositories {}
 
 dependencies {
-  compile project(":athenaeum")
-  compile 'curse.maven:crafting-tweaks:2562139'
+  compile project(":athenaeum-1.12")
+  implementation files('libs/CraftingTweaks_1.12.2-8.1.9.jar')
 }
